@@ -1,0 +1,24 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.column {
+  flex: 0 0 calc(33.33% - 16px); 
+  margin: 8px; 
+  text-align: center; 
+}
+
+button {
+  background-color: lightgray;
+  color: black;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.centered-heading {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
