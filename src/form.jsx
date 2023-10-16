@@ -23,11 +23,9 @@ function FormComponent() {
         <label htmlFor="recipient">
           <b>SIGN UP FOR OUR DAILY INSIDER:</b>
         </label>
-        <div className="input-container">
-          <input type="email" name="recipient" id="recipient" required />
-          <input type="submit" id="button" value="Subscribe" />
-        </div>
+        <input type="email" name="recipient" id="recipient" required />
       </div>
+      <input type="submit" id="button" value="Subscribe" />
     </form>
   );
 }

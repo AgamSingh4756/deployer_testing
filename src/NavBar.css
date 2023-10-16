@@ -24,13 +24,13 @@
   }
   
   .search-bar-container {
-    display: flex;
-    align-items: center; 
+    display: flex; /* Center the search bar */
+    align-items: center; /* Center items vertically */
   }
   
   .search-bar {
-    width: 600px; 
-    padding: 8px; 
+    width: 300px; /* Increase the length */
+    padding: 8px; /* Increase padding for better appearance */
     border: 1px solid #ccc;
     border-radius: 4px;
   }

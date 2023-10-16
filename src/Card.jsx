@@ -7,7 +7,6 @@ function Card(props) {
       <h3>{props.name}</h3>
       <p>{props.position}</p>
       {props.title && <p><strong style={{ fontSize: '24px' }}>{props.title}</strong></p>}
-      <p>{props.desc}</p>
     </div>
   );
 }

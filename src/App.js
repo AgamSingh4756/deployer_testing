@@ -1,18 +1,16 @@
 import React from 'react';
-import './App.css';
-import CardList from './CardList';
-import Header from './Header';
-import NavBar from './NavBar';
-import FormComponent from './form';
-import Footer from './footer';
+import { Routes, Route } from 'react-router-dom';
+import MainContent from './MainContent';
+import SignInPage from './routes/Signin';
+import LogInPage from './routes/LogInPage';
 function App() {
   return (
     <div>
-      <NavBar /> 
-      <Header />
-      <CardList />
-      <FormComponent />
-      <Footer/>
+      <Routes>
+        <Route path="/" element={<MainContent />} />
+        < Route path='/SignIn' element={<SignInPage/>}/> 
+        <Route path='/LogInPage' element={<LogInPage/>}/>
+      </Routes>
     </div>
   );
 }

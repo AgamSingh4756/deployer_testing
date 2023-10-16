@@ -7,7 +7,7 @@ function Header() {
 
   return (
     <div className="header">
-      <img src={randomImage} alt="Staff" className="header-image" />
+      <img src={randomImage} alt="Staff" />
       <h2 className="header-title">Featured Articles</h2>
     </div>
   );

@@ -47,7 +47,6 @@ function Footer() {
         <br></br>
         <br></br>
         <br></br>
-        <br></br>
         Codes of Conduct
       </div>
     </div>

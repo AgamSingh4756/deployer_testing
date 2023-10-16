@@ -6,6 +6,7 @@
   justify-content: space-between;
   align-items: center;
   font-size: calc(8px + 2vmin);
+  padding: 10px;
 }
 
 .footer-left,
